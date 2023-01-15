@@ -84,7 +84,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 use Rodrifarias\PasswordGenerator\Password;
 
-// Password with only numbers, lowercase letters and 65 characters
+// Password with only numbers, lowercase letters and 64 characters
 $password = new Password(
     length: 64,
     useUppercaseLetters: false,
