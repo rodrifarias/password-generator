@@ -2,6 +2,11 @@
 
 A simple password generator
 
+# Installation
+```
+composer require rodrifarias/password-generator
+```
+
 # Creating a new password
 
 ```php
